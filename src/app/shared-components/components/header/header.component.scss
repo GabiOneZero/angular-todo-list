@@ -1,0 +1,15 @@
+.spacer {
+  flex: 1 1 auto;
+}
+.toolbar--menu--icon{
+    background: transparent;
+    border: none;
+}
+mat-icon{
+    color: white;
+    padding-right: 1em;
+}
+
+a:hover > mat-icon{
+   color: orange;
+}

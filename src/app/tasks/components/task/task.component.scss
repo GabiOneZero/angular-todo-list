@@ -1,0 +1,22 @@
+.task{
+    background-color: rgb(128, 128, 128);
+    border-radius: 4px;
+    border-left: 5px solid orange;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 0.5em;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+mat-icon{
+    color: orange;
+}
+
+button:hover mat-icon{
+    color: red;
+}

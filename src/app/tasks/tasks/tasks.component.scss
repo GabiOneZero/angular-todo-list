@@ -1,0 +1,17 @@
+
+.kanban {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+mat-card {
+  text-align: center;
+  flex: 1;
+  margin: 0.5em;
+}
+
+app-add-task{
+  margin: 1em;
+  padding: 1em;
+}

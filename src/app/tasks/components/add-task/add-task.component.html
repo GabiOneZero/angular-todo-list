@@ -1,0 +1,7 @@
+<form class="form" novalidate>    
+    <mat-form-field appearance="fill">
+        <mat-label color="primary">Add Task</mat-label>
+        <input matInput #taskInput>
+      </mat-form-field>
+  <button mat-raised-button color="primary" (click)="sendNewTask(taskInput.value)">Add</button>
+</form>

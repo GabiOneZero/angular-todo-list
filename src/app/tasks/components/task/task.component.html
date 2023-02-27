@@ -1,0 +1,10 @@
+<mat-card class="task" color="primary">
+  <p class="task__description">{{item}}</p>
+  <button
+    matTooltip="Eliminar tarea"
+    matTooltipPosition="above"
+    mat-icon-button
+    (click)="deleteTask()">
+    <mat-icon aria-label="icon-button to remove">delete</mat-icon>
+  </button>
+</mat-card>
